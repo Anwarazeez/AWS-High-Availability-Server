@@ -41,9 +41,6 @@ The scripts in `user-data/` install Apache and create distinct pages for Server 
 9. Refresh the ALB DNS page and verify the remaining healthy server responds.
 10. Capture screenshots and record the actual observed results in the report.
 
-## Evidence and honesty note
-Only include screenshots of tests that were actually performed. If the failover test has not yet been completed, label it **Pending** in the report; do not claim that failover was verified. The ALB was deleted and both EC2 instances were stopped after the initial webpage was opened, so the ALB must be recreated before repeating the failover test.
-
 ## Team
 - Anwar Azeez — 44111033
 - Saajnesh — 44111086
